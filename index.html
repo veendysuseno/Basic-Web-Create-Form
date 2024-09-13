@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Presensi Mahasiswa</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="presensiForm">
+        <h1>Presensi Mahasiswa</h1>
+
+        <label for="nama">Nama:</label><br />
+        <input
+          type="text"
+          name="nama"
+          id="nama"
+          placeholder="Masukkan nama Anda"
+          required
+        /><br /><br />
+
+        <label for="npm">NPM:</label><br />
+        <input
+          type="text"
+          name="npm"
+          id="npm"
+          placeholder="Masukkan NPM Anda"
+          required
+        /><br /><br />
+
+        <label for="jurusan">Jurusan:</label><br />
+        <select name="jurusan" id="jurusan">
+          <option value="">- - -</option>
+          <option>D3 Akuntansi</option>
+          <option>D3 Akuntansi Komputer</option>
+          <option>D3 Bisnis</option>
+          <option>D3 Manajemen</option>
+          <option>D3 Manajemen Perkantoran</option>
+          <!-- Tambahkan opsi jurusan lainnya --></select
+        ><br /><br />
+
+        <label for="fakultas">Fakultas/Program Diploma:</label><br />
+        <select name="fakultas" id="fakultas">
+          <option value="">- - -</option>
+          <option>Diploma Tiga Bisnis & Kewirausahaan</option>
+          <!-- Tambahkan opsi fakultas lainnya --></select
+        ><br /><br />
+
+        <label for="keterangan">Keterangan:</label><br />
+        <textarea
+          id="keterangan"
+          name="keterangan"
+          placeholder="Tuliskan keterangan..."
+          rows="4"
+          cols="50"
+        ></textarea
+        ><br /><br />
+
+        <button type="submit">Kirim</button>
+        <p id="successMessage" style="display: none">Form berhasil dikirim!</p>
+      </form>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
