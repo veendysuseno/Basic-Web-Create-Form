@@ -4,18 +4,18 @@ Proyek ini adalah sebuah formulir presensi mahasiswa yang interaktif dan respons
 
 ## Struktur Proyek
 
-/form-presensi-mahasiswa  
-│
-├── /css
-│ │
-│ └── style.css # File CSS untuk styling form
-│
-├── /js
-│ │
-│ └── script.js # File JavaScript untuk interaktivitas
-│
-├── index.html # File HTML utama
-└── README.md # Dokumentasi proyek
+/form-presensi-mahasiswa<br/>  
+│<br/>
+├── /css<br/>
+│ │<br/>
+│ └── style.css # File CSS untuk styling form<br/>
+│<br/>
+├── /js<br/>
+│ │<br/>
+│ └── script.js # File JavaScript untuk interaktivitas<br/>
+│<br/>
+├── index.html # File HTML utama<br/>
+└── README.md # Dokumentasi proyek<br/>
 
 ## Fitur
 
